@@ -262,3 +262,4 @@ $(".c-aside__month").text(monthText[month - 1]);
 //hehhehehe
 //scammerkim
 //GelaxRain
+//kim 
