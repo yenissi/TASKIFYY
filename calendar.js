@@ -261,4 +261,4 @@ $(".c-aside__month").text(monthText[month - 1]);
 //BAHOG BILAT
 //hehhehehe
 //scammerkim
-//GelaxRain
+//GelaxRain2
