@@ -260,3 +260,4 @@ $(".c-aside__month").text(monthText[month - 1]);
 //gehgeh
 //BAHOG BILAT
 //hehhehehe
+//scammerkim
