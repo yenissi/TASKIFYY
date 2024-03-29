@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/*NAKA COLUMN NA NAV LINKS AT LOGO*/
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+    padding: 20px;
+    min-height: 100vh;
+}
+.column h1 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+nav ul {
+    list-style: none;
+    padding: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+nav ul li a.active {
+    border-bottom: 1px solid black;
+}
+nav ul li {
+    padding: 10px;
+}
+
+/*RIGHT SIDE TOP*/
+
+.row_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 0 0 50px;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox{
+    border: 1px solid black;
+    padding: 10px 0 10px 15px;
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+}
+.searchbox a i {
+    color: black;
+}
+.searchbox input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 500px;
+}
+.searchbox input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+.icons_top{
+    margin-left: 20px;
+}
+.icons_top a{
+    margin-right: 10px;
+}
+.icons_top a i{
+    color: black;
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+    margin-top: 35px;
+    font-family: "Fredoka", sans-serif;
+}
+.progress,
+.mytask,
+.myteam{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.progress a{
+    text-decoration: none;
+    color: black;
+}
+.progress_one{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #F4D89A;
+}
+.mytask{
+    width: 250px;
+    border-radius: 5px;
+}
+.mytask a{
+    text-decoration: none;
+    color: black;
+}
+.mytask_one{
+    padding: 10px;
+    margin: 10px;
+}
+.mytask_one label{
+    margin-left: 5px;
+}
+input[type="checkbox"]{
+    transform: scale(1.5);
+}
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Style the custom checkbox */
+#task {
+    width: 13px;
+    height: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+.myteam a{
+    text-decoration: none;
+    color: black;
+}
+.myteam_one{
+    padding: 10px;
+}
+.teams{
+    padding: 15px 15px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4D89A;
+}
+.teams img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.teams button{
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    border: 1px solid black;
+    font-family: "Fredoka", sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* CALENDAR AND MESSAGES */
+.calendar_messages{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 25px 0 ;
+    font-family: "Fredoka", sans-serif;
+}
+
+/* MESSAGES */
+.messages{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px;
+}
+.messages a{
+    text-decoration: none;
+    color: black;
+}
+.messages_one{
+    padding: 10px;
+    display: flex;
+}
+.messages_one img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.name_user{
+    margin-left: 15px;
+}
+.team_messages{
+    color: red;
+    font-size: 12px;
+}
+.team_names{
+    color: black;
+    font-size: 14px;
+}
+
+/* CALENDAR */
+.calendar{
+    font-family: "Fredoka", sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+.calender-container{
+    border: 1px solid black;
+    width: 450px;
+    border-radius: 5px;
+}
+.today_date{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 5px;
+    padding: 15px;
+}

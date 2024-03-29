@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "Fredoka", sans-serif;
+}
+.container {
+    display: flex;
+}
+
+/*NAKA COLUMN NA NAV LINKS AT LOGO*/
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+    padding: 20px;
+    min-height: 100vh;
+}
+.column h1 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+nav ul {
+    list-style: none;
+    padding: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+nav ul li a.active {
+    border-bottom: 1px solid black;
+}
+nav ul li {
+    padding: 10px;
+}
+
+/*RIGHT SIDE TOP*/
+
+.row_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 0 0 50px;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox{
+    border: 1px solid black;
+    padding: 10px 0 10px 15px;
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+}
+.searchbox a i {
+    color: black;
+}
+.searchbox input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 500px;
+}
+.searchbox input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+.icons_top{
+    margin-left: 20px;
+}
+.icons_top a{
+    margin-right: 10px;
+}
+.icons_top a i{
+    color: black;
+}
+
+
+/***** MY TASK INAMERS *******/
+.task_list{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 15px 0;
+}
+.add_task{
+    margin: 20px 0 0 0;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 0 5px 0;
+}
+
+.add_task input{
+    width: 400px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+#addTaskBtn{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 30px;
+    border-left: 1px solid black;
+}
+#addTaskBtn i{
+   padding: 5px;
+}
+
+
+.task_list ul{
+    list-style: none;
+    padding: 20px 0 0 0;
+}
+.task_list li {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px; /* Add margin bottom for spacing */
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+}
+.task_list input[type="checkbox"]{
+    margin-right: 10px;
+}
+.task_list label {
+    flex-grow: 1; /* Allow label to grow to fill available space */
+}
+.task_list button {
+    border: none;
+    background: transparent;
+}
