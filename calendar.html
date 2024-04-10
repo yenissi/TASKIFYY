@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taskify</title>
-    <link rel="stylesheet" href="mytask.css">
-    <!--LINKS NG MGA PINAG GAMITAN FONT AT ICONS-->
+    <link rel="stylesheet" href="calendar.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/core/main.css" rel="stylesheet">
+
+
 </head>
 <body>
-    
     <div class="container">
 
         <div class="column">
@@ -40,19 +42,19 @@
                             <path fill='#000000FF' d='M12 2c5.523 0 10 4.477 10 10 0 .649-.062 1.284-.18 1.9-.386 2.004-2.397 2.85-4.082 2.57l-1.74-.29a1.29 1.29 0 0 0-1.124.36c-.37.37-.547.879-.298 1.376.423.846.429 1.812.055 2.603C14.131 21.58 13.11 22 12 22 6.477 22 2 17.523 2 12S6.477 2 12 2Zm0 2a8 8 0 1 0 0 16l.195-.002c.258-.01.5-.06.628-.332a.993.993 0 0 0-.036-.855c-.63-1.262-.302-2.71.673-3.685a3.29 3.29 0 0 1 2.867-.919l1.74.29c.957.16 1.668-.348 1.789-.975A8 8 0 0 0 12 4Zm-4.5 7a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm7-4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm-5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z'/></g>
                             </svg>
                         Theme</a></li>
-                    <li><a href="#">
+                    <li><a href="analytics.html">
                         <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox="0 0 24 24">
                             <g fill='none' fill-rule='evenodd'><path d='M24 0v24H0V0zM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018m.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01z'/>
                             <path fill='#000000FF' d='M12 2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1c0-5.523-4.477-10-10-10m1 9V4.062A8.004 8.004 0 0 1 19.938 11zM8.89 4.627a1 1 0 0 0-.78-1.842A10.003 10.003 0 0 0 2 12c0 5.523 4.477 10 10 10 4.145 0 7.699-2.522 9.215-6.11a1 1 0 1 0-1.842-.78A8.002 8.002 0 0 1 4 12a8.003 8.003 0 0 1 4.89-7.373'/></g>
                             </svg>
                         Analytics</a></li>
-                    <li><a href="#">
+                    <li><a href="calendar.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-2.4 -2.4 28.80 28.80" fill="none" stroke="#000000">
                             <path d="M3 9H21M7 3V5M17 3V5M6 12H8M11 12H13M16 12H18M6 15H8M11 15H13M16 15H18M6 18H8M11 18H13M16 18H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="#000000" stroke-width="1.2" stroke-linecap="round"/>
                         </svg>
                         Calendar
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="settings.html">
                         <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox="0 0 24 24">
                             <g fill='none' fill-rule='evenodd'>
                             <path d='M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z'/>
@@ -63,55 +65,268 @@
             </nav>
         </div>
 
-        <div class="row_content">
-
-            <div class="row">
-                <div class="searchbox">
-                    <a href="#"><i class="fas fa-search"></i></a>
-                    <input type="search" name="search" id="search" placeholder="Search...">
+        <div class="calendar">
+            <div class="left-sidebar">
+                <div class="calendar-header">
+                        <button id="prevMonthBtn">&lt;</button>
+                    <div class="date">
+                        <span class="month-name">April</span>
+                        <span class="year-number">2024</span>
+                    </div>
+                        <button id="nextMonthBtn">&gt;</button>
                 </div>
-                <div class="icons_top">
-                    <a href="#"><i class="fas fa-bell"></i></a>
-                    <a href="#"><i class="fas fa-user"></i></a>
+                
+                <div class="weekdays"></div>
+                <div class="right-sidebar">
+                    <div class="days-grid"></div>
                 </div>
             </div>
 
-            <div class="task_list">
-                <h2>Mytask</h2>
-                <div class="add_task">
-                    <input type="text" id="taskInput" placeholder="Add a new task">
-                    <button id="addTaskBtn"><i class="fas fa-plus"></i>Create New task</button>
+            <div class="event-container">
+                <div class="add-event">
+                    <input type="text" id="eventInput" placeholder="Add event..." />
+                    <button onclick="addEvent()">Add Event</button>
+                    <select id="eventType">
+                        <option value="important">Important</option>
+                        <option value="work">Work</option>
+                        <option value="assignment">Assignment</option>
+                        <!-- Add more event types as needed -->
+                    </select>
+                    <input type="date" id="eventDate" />
                 </div>
-                <ul id="taskList"></ul>
+                
+                <div class="event-list">
+                    <h6>Event List</h6>
+                    <ul id="events"></ul>
+                </div>
             </div>
 
-            
-            
+           
         </div>
 
     </div>
-    <script src="mytask.js"></script>
+    <script type="module" src="calendar.js"></script>
     <script>
-                document.addEventListener("DOMContentLoaded", function() {
-            // Get all navigation links
-            const navLinks = document.querySelectorAll("nav ul li a");
+        document.addEventListener("DOMContentLoaded", function() {
+        // Get all navigation links
+        const navLinks = document.querySelectorAll("nav ul li a");
 
-            // Add click event listener to each link
-            navLinks.forEach(function(link) {
-                link.addEventListener("click", function(event) {
-                    // Prevent the default link behavior
-                    event.preventDefault();
+        // Add click event listener to each link
+        navLinks.forEach(function(link) {
+            link.addEventListener("click", function(event) {
+                // Prevent the default link behavior
+                event.preventDefault();
 
-                    // Remove active class from all links
-                    navLinks.forEach(function(link) {
-                        link.classList.remove("active");
-                    });
-
-                    // Add active class to the clicked link
-                    link.classList.add("active");
+                // Remove active class from all links
+                navLinks.forEach(function(link) {
+                    link.classList.remove("active");
                 });
+
+                // Add active class to the clicked link
+                link.classList.add("active");
             });
         });
+    });
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const weekdaysContainer = document.querySelector(".weekdays");
+        const daysGrid = document.querySelector(".days-grid");
+        const currentDate = new Date(); // Get current date
+
+        let currentMonth = currentDate.getMonth();
+        let currentYear = currentDate.getFullYear();
+
+        function loadCalendar(month, year) {
+            // Clear existing calendar content
+            weekdaysContainer.innerHTML = "";
+            daysGrid.innerHTML = "";
+
+            // Update month name and year in the UI
+            const monthNameElement = document.querySelector(".month-name");
+            const yearNumberElement = document.querySelector(".year-number");
+            monthNameElement.textContent = getMonthName(month);
+            yearNumberElement.textContent = year;
+
+            // Populate weekdays in the HTML
+            const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+            weekdays.forEach(function(day) {
+                const weekdayElement = document.createElement("div");
+                weekdayElement.textContent = day;
+                weekdaysContainer.appendChild(weekdayElement);
+            });
+
+            // Determine the first day of the month
+            const firstDayOfMonth = new Date(year, month, 1);
+            const startingWeekday = firstDayOfMonth.getDay(); // 0 (Sun) to 6 (Sat)
+
+            // Get the number of days in the specified month
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+            // Populate the calendar grid with day elements
+                    for (let i = 0; i < startingWeekday; i++) {
+                    // Add empty placeholders for days before the first day of the month
+                    const emptyDayElement = document.createElement("div");
+                    daysGrid.appendChild(emptyDayElement);
+                }
+
+                for (let day = 1; day <= daysInMonth; day++) {
+                    const dayElement = document.createElement("div");
+                    dayElement.classList.add("day");
+                    dayElement.textContent = day;
+                    daysGrid.appendChild(dayElement);
+
+                    // Highlight today's date dynamically
+                    if (day === currentDate.getDate() && month === currentDate.getMonth() && year === currentDate.getFullYear()) {
+                        dayElement.classList.add("today");
+                    }
+                }
+            }
+
+        function getMonthName(monthIndex) {
+            const months = [
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            ];
+            return months[monthIndex];
+        }
+
+        // Initial load of the calendar
+        loadCalendar(currentMonth, currentYear);
+
+        // Handle next month button click
+        const nextMonthBtn = document.getElementById("nextMonthBtn");
+        nextMonthBtn.addEventListener("click", function() {
+            currentMonth++;
+            if (currentMonth > 11) {
+                currentMonth = 0;
+                currentYear++;
+            }
+            loadCalendar(currentMonth, currentYear);
+        });
+
+        // Handle previous month button click
+        const prevMonthBtn = document.getElementById("prevMonthBtn");
+        prevMonthBtn.addEventListener("click", function() {
+            currentMonth--;
+            if (currentMonth < 0) {
+                currentMonth = 11;
+                currentYear--;
+            }
+            loadCalendar(currentMonth, currentYear);
+        });
+    });
+
+    </script>
+    <script>
+        function loadCalendar(month, year) {
+        // Clear existing calendar content
+        weekdaysContainer.innerHTML = "";
+        daysGrid.innerHTML = "";
+
+        // Update month name and year in the UI
+        const monthNameElement = document.querySelector(".month-name");
+        const yearNumberElement = document.querySelector(".year-number");
+        monthNameElement.textContent = getMonthName(month);
+        yearNumberElement.textContent = year;
+
+        // Populate weekdays in the HTML
+        const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        weekdays.forEach(function(day) {
+            const weekdayElement = document.createElement("div");
+            weekdayElement.textContent = day;
+            weekdaysContainer.appendChild(weekdayElement);
+        });
+
+        // Get the number of days in the specified month
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+        // Populate the calendar grid with day elements
+        for (let day = 1; day <= daysInMonth; day++) {
+            const dayElement = document.createElement("div");
+            dayElement.classList.add("day");
+            dayElement.textContent = day;
+            daysGrid.appendChild(dayElement);
+
+            // Highlight today's date
+            const currentDate = new Date();
+            const currentDay = currentDate.getDate();
+            const currentMonth = currentDate.getMonth();
+            const currentYear = currentDate.getFullYear();
+
+            if (day === currentDay && month === currentMonth && year === currentYear) {
+                dayElement.classList.add("today");
+            }
+        }
+    }
+    </script>
+    <script>
+        // JavaScript code for event handling
+        var events = [];
+
+        function addEvent() {
+            // Function logic
+            var eventInput = document.getElementById('eventInput').value;
+            var eventType = document.getElementById('eventType').value;
+            var eventDate = document.getElementById('eventDate').value;
+
+            if (eventInput.trim() === '') {
+                alert('Please enter an event description.');
+                return;
+            }
+
+            var newEvent = {
+                description: eventInput,
+                type: eventType,
+                date: formatDate(eventDate)
+            };
+
+            events.push(newEvent);
+
+            document.getElementById('eventInput').value = '';
+            document.getElementById('eventType').value = 'important';
+            document.getElementById('eventDate').value = '';
+
+            displayEvents();
+        }
+
+        function formatDate(dateString) {
+            // Parse the date string into a Date object
+            var date = new Date(dateString);
+
+            // Check if the parsed date is valid
+            if (isNaN(date.getTime())) {
+                // If the date is invalid, return "No date"
+                return "No date";
+            } else {
+                // If the date is valid, format it as desired
+                var options = { month: 'long', day: 'numeric', year: 'numeric' };
+                return date.toLocaleDateString('en-US', options);
+            }
+        }
+
+        function displayEvents() {
+            var eventsList = document.getElementById('events');
+            eventsList.innerHTML = '';
+
+            events.forEach(function(event, index) {
+                var listItem = document.createElement('li');
+                listItem.innerHTML = `
+                    ${event.type.toUpperCase()}: ${event.description} - ${event.date}
+                    <button onclick="removeEvent(${index})">Remove</button>
+                `;
+                eventsList.appendChild(listItem);
+            });
+        }
+
+        function removeEvent(index) {
+            events.splice(index, 1);
+            displayEvents();
+        }
+
+        // Initial display of events (empty at start)
+        displayEvents();
+    </script>
+    
 </body>
 </html>

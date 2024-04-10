@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "Fredoka", sans-serif;
+    
+}
+.container {
+    display: flex;
+}
+
+/*NAKA COLUMN NA NAV LINKS AT LOGO*/
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+    padding: 20px;
+    min-height: 100vh;
+}
+.column h1 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+nav ul {
+    list-style: none;
+    padding: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+nav ul li a.active {
+    border-bottom: 1px solid black;
+}
+nav ul li {
+    padding: 10px;
+}
+
+/*RIGHT SIDE TOP*/
+.calendar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px;
+}
+.calendar-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 25px;
+    box-sizing: border-box;
+}
+/* Space around navigation buttons */
+#prevMonthBtn,
+#nextMonthBtn {
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.left-sidebar {
+    width: 150vh;
+    height: 370px;
+    padding: 50px;
+    background-color: #F4D89A;
+    border-radius: 15px;
+}
+
+.date {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.month-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.year-number {
+    font-size: 17px;
+}
+
+.right-sidebar {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.days-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    padding: 5px;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 9px;
+}
+.weekdays{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Each weekday takes equal space */
+    gap: 5px;
+    font-size: 9px;
+    text-align: center;
+}
+.today {
+    background-color: #d3c96d;
+    font-weight: bold;
+}
+
+
+
+.event-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+#eventInput{
+    width: auto;
+    padding: 3px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 9px;
+}
+
+.add-event button{
+    border: none;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 8px;
+}
+#eventDate{
+    padding: 2px 10px;
+}
+/*EVENT LIST STYLE*/
+.event-list{
+    padding: 15px;
+}
+.event-list h6{
+    font-weight: 500;
+}
+.event-list ul{
+    list-style: none;
+    padding: 10px 0;
+}
+.event-list li{
+    font-size: 12px;
+    font-weight: 400;
+}
+#eventType{
+    padding: 3px 5px;
+}
+
+.event-list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+/* CSS to style the Remove button */
+.event-list li button {
+    background-color: #F4D89A; /* Red background color */
+    color: #000000; /* White text color */
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+/* Hover effect */
+.event-list li button:hover {
+    background-color: #ed7373; /* Darker red background color on hover */
+}
